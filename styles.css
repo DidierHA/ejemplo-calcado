@@ -1,0 +1,68 @@
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contenedor {
+  border: 1px solid lightgray;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  height: 70px;
+  width: 340px;
+}
+
+p {
+  margin: 1px;
+  font-family: sans-serif;
+}
+
+.titulo {
+  font-weight: bold;
+}
+
+.descripcion {
+  color: lightgray;
+}
+
+.imagen {
+  border: 1px solid rgb(244, 232, 173);
+  border-radius: 5px;
+  height: 40px;
+  width: 40px;
+  background-color: lemonchiffon;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+img {
+  width: 30px;
+  height: 30px;
+}
+
+.fondo {
+  background-color: lightgray;
+  height: 30px;
+  width: 55px;
+  border-radius: 34px;
+  padding: 0 1px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.bolita {
+  height: 28px;
+  width: 28px;
+  background-color: white;
+  border-radius: 50%;
+}
+
+.activo {
+  background-color: #55a630;
+  justify-content: flex-end;
+}

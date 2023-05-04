@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="contenedor">
+      <div class="imagen">
+        <img
+          src="https://images.vexels.com/media/users/3/260772/isolated/lists/2de0a52a102d0fed9950906b1f2c2885-geometric-yellow-sun.png"
+          alt="sol animado"
+        />
+      </div>
+      <div class="texto">
+        <p class="titulo">Morning</p>
+        <p class="descripcion">60 • Every day, 07-9:00 AM</p>
+      </div>
+      <div class="fondo">
+        <div class="bolita" onclick="cambiar()"></div>
+      </div>
+    </div>
+    <script>
+      function cambiar() {
+        document.querySelector('.fondo').classList.toggle('activo');
+      }
+    </script>
+  </body>
+</html>
